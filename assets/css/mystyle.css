@@ -1,0 +1,98 @@
+.CALbody {
+  background: #313333;
+  background: rgba(49, 51, 51, 1);
+  border-style: Solid;
+  border-color: #000000;
+  border-color: rgba(0, 0, 0, 1);
+  border-width: 0px;
+  /* position : absolute ;
+  left : 680px;
+  top : 100px; */
+  width: 400px;
+  height: 650px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  box-shadow: #313333;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  margin-bottom: auto;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.60) !important;
+}
+
+.numfield {
+
+  background: #414342;
+  width: 100%;
+  height: 400px;
+}
+
+p {
+  font-family: Montserrat !important;
+  font-weight: bold !important;
+  font-style: italic;
+  font-size: 15px !important;
+  text-align-last: center !important;
+  color: #FFFFFF;
+  color: rgb(255, 255, 255);
+  padding-top: 7% !important;
+}
+
+.inputfield {
+
+  border-style: Solid;
+  border-color: #1A1A1A;
+  border-color: rgba(26, 26, 26, .5);
+  border-width: 1px;
+  width: auto;
+  height: 59px;
+  border-radius: 2px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  margin: 0 auto;
+
+}
+
+.btnz {
+
+  width: auto;
+  height: 90%;
+
+
+}
+
+
+.btnh {
+
+  background: rgb(255, 0, 0) !important;
+  width: 70px;
+  height: 53px;
+  margin: 5px;
+  border: none;
+  border-radius: 40px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+
+.mycontainer {
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#screen {
+  font-family: 'Kelly Slab', cursive !important;
+
+}
+
+
+.btnx {
+  background: #f8f8f8 !important
+}
+
+.btnx:hover {
+  background: #d4ddd5 !important
+}

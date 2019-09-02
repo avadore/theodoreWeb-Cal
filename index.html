@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AVATECH</title>
+    <link rel="stylesheet" href="/assets/css/mystyle.css">
+    <link rel="stylesheet" href="/assets/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body onload="mypowerbtn()">
+
+
+    <div class="CALbody ">
+        <p> <span style="color: rgb(241, 0, 0)">THEODORE'S</span> WEB CAL </p> <!-- Title -->
+        <hr style=" background: aliceblue !important " class="mx-5"> <!-- line -->
+        </hr>
+
+        <!-- screen field -->
+        <div class="inputfield mx-3" id="screenbody" style="background: rgb(221, 218, 215)">
+            <p id="screen"
+                style="font-size: 36px !important ; 
+                color: black !important;
+                 padding: 0px 0px 0px 0px !important ;
+                  margin: 5px 0px 5px 0px !important ;">
+                0</p>
+        </div>
+        <!-- screen field -->
+
+        <div class="numfield">
+            <!-- input buttons board -->
+            <div class="btnz mx-3 " id="keys" style=" font-family : Montserrat !important;">
+                <!-- segement -->
+                <div class="row pt-5 mycontainer">
+                    <div class="col-3"><button class="btnh" id="PT" onclick=mypowerbtn()>
+                            <p id="powerToggle" style=" color: black !important">OFF</p>
+                        </button></div>
+                    <div class="col-3"><button class="btnh btnx" id="B" onclick="unappend(id)">BS</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="0" onclick="theoclear(id)">C</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="+" onclick="append(id)">+</button></div>
+                </div>
+                <!-- segement -->
+                <div class="row mycontainer ">
+                    <div class="col-3"><button class="btnh btnx" id="7" onclick="append(id)">7</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="8" onclick="append(id)">8</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="9" onclick="append(id)">9</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="-" onclick="append(id)">-</button></div>
+                </div>
+                <!-- segement -->
+                <div class="row mycontainer ">
+                    <div class="col-3"><button class="btnh btnx" id="4" onclick="append(id)">4</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="5" onclick="append(id)">5</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="6" onclick="append(id)">6</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="/" onclick="append(id)">/</button></div>
+                </div>
+                <!-- segement -->
+                <div class="row mycontainer ">
+                    <div class="col-3"><button class="btnh btnx corr" id="1" onclick="append(id)">1</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="2" onclick="append(id)">2</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="3" onclick="append(id)">3</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="*" onclick="append(id)">X</button></div>
+                </div>
+                <!-- segement -->
+                <div class="row mycontainer ">
+                    <div class="col-3"><button class="btnh btnx" id="0" onclick="append(id)">0</button></div>
+                    <div class="col-3"><button class="btnh btnx" id="." onclick="append(id)">.</button></div>
+                    <div class="col-6" style="padding: 0px 5px 0px 15px !important;" id="="> <button
+                            onclick="theoresult()" class=" btnh" style="background : rgb(0, 0, 255) !important;
+                         width : 100%;
+                         height : 53px;                         
+                         margin: 5px;
+                         border: none;
+                         color : rgb(255, 255, 255) !important
+                       
+                        ">=</button></div>
+
+                </div>
+
+            </div>
+            <!--  end input buttons board -->
+
+
+        </div>
+    </div>
+
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="/assets/js/myscripts.js"></script>
+    <script>
+
+
+
+    </script>
+
+    <script>
+    </script>
+</body>
+
+</html>
